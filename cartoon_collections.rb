@@ -14,10 +14,12 @@ end
 
 def long_planeteer_calls(calls)
   if calls.find(call.length > 4)
+    true
+  else
+    false
+  end
 end
 
 def find_the_cheese(foods)
   foods.include?("cheddar" || "gouda" || "camembert")
 end
-
-binding.pry
