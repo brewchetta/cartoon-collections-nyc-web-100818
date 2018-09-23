@@ -13,7 +13,7 @@ def summon_captain_planet(items)
 end
 
 def long_planeteer_calls(calls)
-  calls.include?{|call| call.length > 4}
+  calls.include?(call.length > 4)
 end
 
 def find_the_cheese(foods)
