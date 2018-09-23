@@ -10,7 +10,7 @@ def summon_captain_planet(items)
 end
 
 def long_planeteer_calls(calls)
-  
+  calls.find
 end
 
 def find_the_cheese# code an argument here
