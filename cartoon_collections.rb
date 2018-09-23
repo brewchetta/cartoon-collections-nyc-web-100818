@@ -13,11 +13,11 @@ def summon_captain_planet(items)
 end
 
 def long_planeteer_calls(calls)
-  calls.include?(call.length > 4)
+  if calls.find(call.length > 4)
 end
 
 def find_the_cheese(foods)
-  foods.include?{|x| x == "cheddar" || x == "gouda" || x == "camembert"}
+  foods.include?("cheddar" || "gouda" || "camembert")
 end
 
 binding.pry
