@@ -21,5 +21,5 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(foods)
-  foods.include?("cheddar" || "gouda" || "camembert")
+  foods.find("cheddar" || "gouda" || "camembert")
 end
